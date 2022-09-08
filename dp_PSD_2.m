@@ -3,6 +3,7 @@ close all
 clc
 %% Load data
 
+disp("Hello from Gilles")
 addpath(genpath('./functions'));
 [data, hdr] = sload(['./test_data/Sub_03_trialRun_1_wHarmony.gdf']); 
 
